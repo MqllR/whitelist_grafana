@@ -1,0 +1,13 @@
+{
+  "name": "whitelist_grafana",
+  "version": "1.0.0",
+  "description": "Small script to add all declared IP from grafana to an ipset whitelist that is authorized in DOCKER-USER iptables chain",
+  "main": "whitelist_grafana.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MqllR",
+  "dependencies": {
+    "request": "latest"
+  }
+}
