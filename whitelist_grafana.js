@@ -6,7 +6,7 @@ const request = promisify(require('request'));
 
 const grafana_url = 'https://grafana.com/api/hosted-grafana/source-ips';
 const ipset_whitelist = 'grafana-whitelist';
-const dest_port = 9091   // Authorized TCP port for grafana access
+const dest_port = 9090   // Prometheus TCP port for grafana access
 
 // Get the IP range from grafana
 const ips_list = async () => {
